@@ -8,10 +8,9 @@
     font-family: 'Outfit', sans-serif;
 }
 .container {
-    position: relative;
-    width: 1140px;
-    height: 1023px;
+    max-width: 1140px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .logo_attorney{
@@ -20,5 +19,4 @@
     height: 78px;
     left: 2px;
     top: 1px;
-
 }
