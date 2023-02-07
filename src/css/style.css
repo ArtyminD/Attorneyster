@@ -2,15 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-*{
     font-family: 'Outfit', sans-serif;
 }
-.logo_attorney{
-    position: absolute;
-    width: 396.78px;
-    height: 78px;
-    left: 2px;
-    top: 1px;
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
