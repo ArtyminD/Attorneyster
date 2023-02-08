@@ -9,3 +9,15 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
+
+
+
+
+
+
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
