@@ -4,10 +4,36 @@
     padding: 0;
     font-family: 'Outfit', sans-serif;
 }
-.container{
-    max-width: 1140px;
+.first_page{
+
+}
+.container_fp{
+    position: relative;
+    max-width: 1440px;
+    height: 1023px;
     margin: 0 auto;
     padding: 0 15px;
+    background: url("/src/img/bg/Group 2.png") repeat-y
+}
+.logo{
+    width: 1360px;
+    height: 115px;
+    position: relative;
+}
+
+.logo_text{
+    width: 250px;
+    height: 85px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    position: absolute;  
+    top: 20px;
+    right: 30px;
+    text-align: center;
+    color: #ffff;
+    border-style: solid;
+    border-color: grey;
 }
 
 
@@ -16,8 +42,23 @@
 
 
 
-
+.container-fluid{
+    max-width: 500px;
+}
+.nav_wrapper{
+    
+}
 .contact{
+    
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-start;
+}
+.text_phone{
+    margin: 3px 3px 3px 3px;
+}
+
+.bg1{
+    position: absolute;
 }
