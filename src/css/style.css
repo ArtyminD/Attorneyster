@@ -6,60 +6,187 @@
 }
 
 .first_page{
-
-}
-.container_fp{
     position: relative;
-    max-width: 1440px;
     height: 1023px;
-    margin: 0 auto;
-    padding: 0 15px;
-    background: url("/src/img/bg/Group 2.png") repeat-y
+    background: url("/src/img/bg/Group 2.png") center center/cover no-repeat;
 }
-.logo{
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px 0px 20px;
+}
+
+.top_block{
     width: 1360px;
     height: 115px;
-    position: relative;
+    padding: 40px 0px 0px 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
 }
 
-.logo_text{
-    width: 250px;
-    height: 85px;
-    display: flex;
-    justify-content: end;
-    align-items: start;
-    position: absolute;  
-    top: 20px;
-    right: 30px;
+.consultation{
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    padding: 24px 71px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
     text-align: center;
-    color: #ffff;
-    border-style: solid;
-    border-color: grey;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+hr{
+    color: #FFFFFF;
 }
 
-
-
-
-
-
-
-.container-fluid{
-    max-width: 500px;
+.bottom_block{
+    width: 1360px;
+    height: 130px; 
+    margin-top: 39px;
+    padding: 0px 0px 0px 20px;
 }
-.nav_wrapper{
-    
-}
-.contact{
-    
+
+.bottom_block_wrapper{
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-items: flex-start;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 60px;
+}
+
+.nav_menu{
+    width: 523px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.home{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.4px;
+    color: #D1B06B;
+    text-decoration: none;
+}
+.rest{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact{
+    margin: 0px 0px 0px 218px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-end;
+    gap: 60px;
+
 }
 .text_phone{
     margin: 3px 3px 3px 3px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #D1B06B;
 }
 
-.bg1{
+.phone{
+    border: 2px solid #CCAA60;
+    border-radius: 62px;
+    padding: 22px 23px 22px 23px;
+}
+
+.message{
+    border: 2px solid #CCAA60;
+    border-radius: 50px;
+    padding: 23px 23px 23px 23px;
+}
+
+.text_mail{
+    margin: 3px 3px 3px 3px; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #D1B06B;
+}
+
+.main_area_wrapper{
+    position: relative;
+    display: flex;
+}
+
+.main_titles{
+    position: relative;
+    margin-top: 110px;
+    padding: 0px 0px 0px 20px;
+}
+
+.main_title{
+    margin-top: 14px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 78px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.help{
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    color: #D1B06B;
+}
+
+.btn_connect{
+    width: 269px;
+    height: 85px;
+    margin-top: 28px;
+    background: #D1B06B;
+    border: 1px solid #D1B06B;
+    box-shadow: 10px 10px 16px rgba(19, 4, 62, 0.994);
+    border-radius: 15px;
+    
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+    transition: All 0.8s ease;
+    cursor: pointer;
+}
+
+.btn_connect:hover{
+    width: 276px;
+    height: 91px;
+    background-color: #48d632;
+}
+.lawyer{
     position: absolute;
+    top: 32px;
+    left: 728px;
+    right: 40px;
 }
