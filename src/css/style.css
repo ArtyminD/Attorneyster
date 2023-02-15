@@ -190,3 +190,20 @@ hr{
     left: 728px;
     right: 40px;
 }
+
+.welcome{
+    position: relative;
+    height: 897px;
+    background: url("/src/img/bg/bg2.png") center center/cover no-repeat;
+}
+
+.welcome .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px 0px 20px;
+}
+
+.welcome_wrapper{
+    position: absolute;
+    margin-top: 140.3px;
+}
