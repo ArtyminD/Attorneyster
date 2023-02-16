@@ -207,3 +207,124 @@ hr{
     position: absolute;
     margin-top: 140.3px;
 }
+
+.images_wrapper{
+    width: 498.75px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome_info{
+    width: 831.25px;
+    height: 614px;
+    margin-left: 53.25px;
+}
+
+.welcome_titles h2{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.titles_logo{
+    margin-top: 11px;
+}
+
+.welcome_titles .welcome_subtitle{
+    margin-top: 43px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+
+.small_lawyer{
+    margin-top: 33px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.small_lawyer_text{
+    margin-left: 20px;
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.statistic{
+    margin-top: 45.3px;
+    width: 831.25px;
+    height: 126px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.cases{
+    width: 315px;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3B434E;
+    border-radius: 0px;
+}
+
+.case_text{
+    margin-left: 20px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+
+.years{
+    margin-left: 30px;
+    width: 315px;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D1B06B;
+    border-radius: 0px;
+}
+.years_text{
+    margin-left: 20px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+
+ .welcome_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ }
