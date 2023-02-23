@@ -4,16 +4,28 @@
     padding: 0;
     font-family: 'Outfit', sans-serif;
 }
+
+.first_page{
+    position: relative;
+    min-height: 1023px;
+    background: url("/src/img/bg/Group 2.png") center center/cover no-repeat;
+}
+
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 40px 0px 20px;
 }
-.first_page{
-    position: relative;
-    height: 1023px;
-    background: url("/src/img/bg/Group 2.png") center center/cover no-repeat;
+
+.top_block{
+    min-width: 1360px;
+    min-height: 115px;
+    padding: 40px 0px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .consultation{
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -27,35 +39,593 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+hr{
+    color: #FFFFFF;
 }
 
-.consultation{
-
+.bottom_block{
+    margin-top: 39px;
+    padding: 0px 0px 0px 20px;
 }
 
-.logo{
-}
-
-
-.nav_wrapper{
-    
-}
-.contact{
-    
+.bottom_block_wrapper{
+    min-width: 1360px;
+    min-height: 130px;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-items: flex-start;
-}
-.text_phone{
-    margin: 3px 3px 3px 3px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.bg1{
-    position: absolute;
+.divide{
+    min-width: 523px;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.home{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.4px;
+    color: #D1B06B;
+    text-decoration: none;
+}
+.rest{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contacts{
+    margin: 0px 0px 0px 218px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.calling{
+    min-width: 270px;
+    min-height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+    border: 2px solid #CCAA60;
+    border-radius: 50px;
+    padding: 22px 23px 22px 23px;
+}
+
+.text_phone{
+    margin-left: 12px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #D1B06B;
+}
+.number{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.mail{
+    min-width: 320px;
+    min-height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message{
+    border: 2px solid #CCAA60;
+    border-radius: 50px;
+    padding: 23px 23px 23px 23px;
+}
+
+.text_mail{
+    margin-left: 12px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #D1B06B;
+}
+.email{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.main_area_wrapper{
+    position: relative;
+    display: flex;
+}
+
+.main_titles{
+    position: relative;
+    margin-top: 110px;
+    padding: 0px 0px 0px 20px;
+}
+
+.main_title{
+    margin-top: 14px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 78px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.help{
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    color: #D1B06B;
+}
+
+.btn_connect{
+    width: 269px;
+    height: 85px;
+    margin-top: 28px;
+    background: #D1B06B;
+    border: 1px solid #D1B06B;
+    box-shadow: 10px 10px 16px rgba(19, 4, 62, 0.994);
+    border-radius: 15px;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+    transition: All 0.8s ease;
+    cursor: pointer;
+}
+
+.btn_connect:hover{
+    width: 276px;
+    height: 91px;
+    background-color: #48d632;
+}
+.lawyer{
+    position: absolute;
+    top: 32px;
+    left: 728px;
+    right: 40px;
+}
+
+.welcome{
+    /* position: relative; */
+    height: 897px;
+    padding-top: 140px;
+    background: url("/src/img/bg/bg2.png") center center/cover no-repeat;
+}
+
+.welcome .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px 0px 20px;
+}
+
+.welcome_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.images_wrapper{
+    width: 498.75px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome_info{
+    min-width: 831.25px;
+    min-height: 614px;
+    margin-left: 53.25px;
+}
+
+.welcome_titles h2{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.titles_logo{
+    margin-top: 11px;
+}
+
+.welcome_titles .welcome_subtitle{
+    margin-top: 43px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+
+.small_lawyer{
+    margin-top: 33px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.small_lawyer_text{
+    margin-left: 20px;
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.statistic{
+    margin-top: 45.3px;
+    width: 831.25px;
+    height: 126px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.cases{
+    width: 315px;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3B434E;
+    border-radius: 0px;
+}
+
+.case_text{
+    margin-left: 20px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+
+.years{
+    margin-left: 30px;
+    width: 315px;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D1B06B;
+    border-radius: 0px;
+}
+.years_text{
+    margin-left: 20px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+
+.company_activity{
+    padding-top: 110px;
+    background: url("/src/img/bg/bg2.png") center center/cover no-repeat;
+}
+
+.company_activity .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px 0px 20px;
+}
+
+.company_activity_wrapper{
+    margin: 0 auto;
+}
+
+.company_activity_titles{
+    min-width: 1360px;
+    min-height: 138px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_activity_title{
+    min-width: 680px;
+    min-height: 138px;
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.activity_sudtitle{
+    margin: 43px 12px 0 0;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.activity_logo{
+    margin-top: 11px;
+}
+
+.practice_areas{
+    /* max-width: 1380px;
+    max-height: 918px; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.business_law{
+    width: 430px;
+    height: 429px;
+    background: url("/src/img/bg/bg_areas.png") center center/cover no-repeat;
+    /* border: 0px solid #161D27; */
+
+}
+/* .business_law_text{
+    background: url("/src/img/bg/bg_area1.png") center center/cover no-repeat;
+} */
+.business_law_text span{
+    display: block;
+    padding: 55px 142px 8px 50px;
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.business_law_text p{
+    padding: 0 73px 0px 50px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.business_law_text .line{
+    padding: 28px 50px 0 50px;
+}
+
+.business_law .more{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+
+.business_law .more button{
+    padding: 13px 42px 13px 42px;
+    border: none;
+    box-shadow: 10px 10px 16px rgba(19, 4, 62, 0.994);
+    border-radius: 8px;
+    background: #161D27;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.construction_law{
+    width: 430px;
+    height: 429px;
+    background: url("/src/img/bg/bg_areas.png") center center/cover no-repeat;
+    border: none;
+}
+.construction_law_text span{
+    display: block;
+    padding: 55px 73px 8px 50px;
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.construction_law_text p{
+    padding: 0 54px 0px 50px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.construction_law_text .line{
+    padding: 28px 50px 0 50px;
+}
+
+.construction_law .more{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+
+.construction_law .more button{
+    padding: 13px 42px 13px 42px;
+    border: none;
+    box-shadow: 10px 10px 16px rgba(19, 4, 62, 0.994);
+    border-radius: 8px;
+    background: #161D27;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.car_accident{
+    width: 430px;
+    height: 429px;
+    background: url("/src/img/bg/bg_areas.png") center center/cover no-repeat;
+    border: none;
+}
+.car_accident_text span{
+    display: block;
+    padding: 55px 138px 8px 50px;
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.car_accident_text p{
+    padding: 0 55px 0px 50px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.car_accident_text .line{
+    padding: 28px 50px 0 50px;
+}
+
+.car_accident .more{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+
+.car_accident .more button{
+    padding: 13px 42px 13px 42px;
+    border: none;
+    box-shadow: 10px 10px 16px rgba(19, 4, 62, 0.994);
+    border-radius: 8px;
+    background: #161D27;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.wrongful_death{
+    width: 430px;
+    height: 429px;
+    background: url("/src/img/bg/bg_areas.png") center center/cover no-repeat;
+    border: none;
+}
+
+.criminal_law{
+    width: 430px;
+    height: 429px;
+    background: url("/src/img/bg/bg_areas.png") center center/cover no-repeat;
+    border: none;
+}
+
+.family_law{
+    width: 430px;
+    height: 429px;
+    background: url("/src/img/bg/bg_areas.png") center center/cover no-repeat;
+    border: none;
+}
+
