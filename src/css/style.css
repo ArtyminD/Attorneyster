@@ -14,7 +14,7 @@
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 40px 0px 20px;
+    padding: 0 20px 0px 20px;
 }
 
 .top_block{
@@ -166,7 +166,7 @@ hr{
 }
 
 .main_titles{
-    position: relative;
+    /* position: relative; */
     margin-top: 110px;
     padding: 0px 0px 0px 20px;
 }
@@ -217,9 +217,8 @@ hr{
 }
 .lawyer{
     position: absolute;
-    top: 32px;
-    left: 728px;
-    right: 40px;
+    top: 18px;
+    right: 23px;
 }
 
 .welcome{
@@ -229,11 +228,11 @@ hr{
     background: url("/src/img/bg/bg2.png") center center/cover no-repeat;
 }
 
-.welcome .container{
+/* .welcome .container{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 40px 0px 20px;
-}
+} */
 
 .welcome_wrapper{
     display: flex;
@@ -416,11 +415,68 @@ hr{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.card_item{
+    max-width: 430px;
+    width: 100%;
+    min-height: 429px;
+    background: url("/src/img/bg/bg_areas.png") center center/cover no-repeat;
+    padding: 55px 50px 70px 50px;
+}
+.card_item_title{
+    display: block;
+    /* padding: 55px 142px 8px 50px; */
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 56px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.card_item_subtitle{
+    /* padding: 0 73px 0px 50px; */
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.card_item_top{
+    border-bottom: 1px solid #4E555F;
+    padding-bottom: 40px;
+}
+.card_item_bottom{
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.card_item_bottom button{
+    padding: 13px 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 10px 10px 16px rgba(19, 4, 62, 0.994);
+    border-radius: 8px;
+    background: #161D27;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 .business_law{
-    width: 430px;
-    height: 429px;
-    background: url("/src/img/bg/bg_areas.png") center center/cover no-repeat;
+
 }
 
 .business_law_text span{
