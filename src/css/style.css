@@ -311,7 +311,7 @@ hr{
     align-items: center;
 }
 
-.cases{
+.statistic .cases{
     width: 315px;
     height: 126px;
     display: flex;
@@ -321,7 +321,7 @@ hr{
     border-radius: 0px;
 }
 
-.case_text{
+.statistic .cases .case_text{
     margin-left: 20px;
 
     font-family: 'Outfit';
@@ -333,7 +333,7 @@ hr{
     color: #D7D7D7;
 }
 
-.years{
+.statistic .years{
     margin-left: 30px;
     width: 315px;
     height: 126px;
@@ -343,7 +343,7 @@ hr{
     background: #D1B06B;
     border-radius: 0px;
 }
-.years_text{
+.statistic .years .years_text{
     margin-left: 20px;
 
     font-family: 'Outfit';
@@ -356,7 +356,7 @@ hr{
 }
 
 .company_activity{
-    padding-top: 110px; 
+    padding: 110px 0 202px 0; 
     background: url("/src/img/bg/bg2.png") center center/cover no-repeat;
 }
 
@@ -788,6 +788,8 @@ hr{
 .partners_titles{
     /* margin-top: 116px; */
     margin: 0 auto;
+    padding-top: 116px;
+    min-width: 1360px;
     min-height: 266px;
 }
 .partners_titles .fighting {
@@ -801,9 +803,151 @@ hr{
     text-transform: capitalize;
     color: #161D27;
 }
-.partners_titles .img_logo img{
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* padding-top: 11px; */
+.partners_titles .img_logo {
+    padding-top: 13px;
+}
+.partners_titles .img_logo img {
+    padding: 0 632px 40px 633px;
+}
+.partners_titles p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #909090;
+}
+.results{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-bottom: 81px;
+}
 
+.trusted_clients{
+    width: 433px;
+    height: 180px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.trusted_clients .trusted_clients_text span{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+.trusted_clients .trusted_clients_text p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #909090;
+}
+
+.results .cases{
+    width: 433px;
+    height: 180px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20.33px;
+}
+
+.results .cases .cases_text span{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
+
+.results .cases .cases_text p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #909090;
+}
+
+.results .crimanal_defence{
+    width: 433px;
+    height: 180px;
+    background: url("/src/img/bg/bg_law.png") center center/cover no-repeat ;
+    padding-top: 40px;
+
+}
+.results .crimanal_defence span{
+    padding: 0 275px 101px 50px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.results .crimanal_defence p{
+    padding: 10px 220px 65px 50px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.our_partners{
+    margin-top: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our_partners .title{
+    margin: 0 40px 0 40px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #161D27;
+}
+.our_partners_wrapper{
+    margin-top: 10px;
+    height: 156px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.our_partners_wrapper .partner1 img{
+    padding-bottom: 30px;
+}
+.our_partners_wrapper .partner3 img{
+    padding-bottom: 30px;
+}
+.our_partners_wrapper .partner4 img{
+    padding-bottom: 30px;
+}
+.our_partners_wrapper .partner5 img{
+    padding-bottom: 30px;
 }
