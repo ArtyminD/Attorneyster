@@ -45,7 +45,6 @@ hr{
 
 .bottom_block{
     margin-top: 39px;
-    padding: 0px 0px 0px 20px;
 }
 
 .bottom_block_wrapper{
@@ -607,7 +606,7 @@ hr{
 }
 
 .our_partners{
-    margin-top: 81px;
+    padding: 81px 40px 0 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -623,22 +622,22 @@ hr{
     text-transform: capitalize;
     color: #161D27;
 }
-.our_partners_wrapper{
-    margin-top: 10px;
+.our_partners_items{
+    margin: 15px 0 130px 0;
     height: 156px;
     display: flex;
     justify-content: space-around;
     align-items: end;
 }
-.our_partners_wrapper .partner1 img{
+.our_partners_items .item img{
     padding-bottom: 30px;
 }
-.our_partners_wrapper .partner3 img{
-    padding-bottom: 30px;
+
+.history{
+    padding: 140px 40px;
+    background: center center/cover no-repeat url("/src/img/history/bg/bg_history.png") ;
 }
-.our_partners_wrapper .partner4 img{
-    padding-bottom: 30px;
-}
-.our_partners_wrapper .partner5 img{
-    padding-bottom: 30px;
+.history .history_content{
+    background: url("/src/img/history/bg/bg_content.png") center center/cover no-repeat;
+
 }
