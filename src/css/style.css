@@ -634,10 +634,144 @@ hr{
 }
 
 .history{
-    padding: 140px 40px;
+    padding: 140px 20px;
     background: center center/cover no-repeat url("/src/img/history/bg/bg_history.png") ;
 }
 .history .history_content{
     background: url("/src/img/history/bg/bg_content.png") center center/cover no-repeat;
+    padding: 80px 60px 70px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 45px;
+}
+.history_law{
+    min-width: 418px;
+    min-height: 900px;
+    width: 100%;
+    padding-bottom: 35px;
+}
+.history_law .title{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.history_law .logo{
+    margin-top: 11px;
+}
+.history_law .subtitles{
+    margin-top: 40px;
+}
+.history_law .subtitles .subtitle{
+    margin: 35px 0 13px 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #D1B06B;
+}
+.history_law .subtitles p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.justice_item {
+    min-width: 264px;
+    min-height: 900px;
+}
+.our_experiency{
+    min-width: 383px;
+    min-height: 900px;
+    width: 100%;    
+}
+.our_experiency .title{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.our_experiency .logo{
+    margin-top: 11px;
+}
+.our_experiency .subtitle{
+    margin-top: 43px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #D7D7D7;
+}
+.our_experiency .areas_statistic1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 109px;
+}
+.our_experiency .areas_statistic2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 97px;
+}
+.our_experiency .areas_statistic3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 154px;
+}
+.our_experiency .areas_statistic4{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+}
+.areas_case {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.our_experiency .consulting_btn{
+    display: block;
+    margin-top: 50px;
+    /* margin-bottom: 35.3px; */
+    padding: 25px 71px;
+    background: #D1B06B;
+    border: 1px solid #D1B06B;
+    border-radius: 0px;
 
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+    cursor: pointer;
 }
