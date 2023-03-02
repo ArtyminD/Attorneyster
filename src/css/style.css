@@ -525,6 +525,25 @@ hr{
     align-items: center;
     gap: 20px;
 }
+.trusted_clients .results_block{
+    min-width: 118px;
+    min-height: 120px;
+    border: 2px solid #D1B06B;
+}
+.trusted_clients .results_block img{
+    margin: 31px 46px 0 46px;
+}
+.trusted_clients .results_block p{
+    margin: 0 auto;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1F2732;
+}
 
 .trusted_clients .trusted_clients_text span{
     font-family: 'Cormorant Garamond';
