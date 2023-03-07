@@ -713,7 +713,6 @@ hr{
 .our_experiency{
     min-width: 383px;
     min-height: 900px;
-    width: 100%;    
 }
 .our_experiency .title{
     font-family: 'Cormorant Garamond';
@@ -738,33 +737,20 @@ hr{
     letter-spacing: 0.4px;
     color: #D7D7D7;
 }
-.our_experiency .areas_statistic1{
+.our_experiency .areas_statistic{
     margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 109px;
 }
-.our_experiency .areas_statistic2{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 97px;
-}
-.our_experiency .areas_statistic3{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 154px;
-}
-.our_experiency .areas_statistic4{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 94px;
+.areas_statistic .percent{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
 }
 .areas_case {
     font-family: 'Outfit';
