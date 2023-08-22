@@ -656,10 +656,10 @@ hr{
 
 .history{
     padding: 140px 20px;
-    background: center center/cover no-repeat url("/src/img/history/bg/bg_history.png") ;
+    background: #1F2732 center center/cover no-repeat;
 }
 .history .history_content{
-    background: url("/src/img/history/bg/bg_content.png") center center/cover no-repeat;
+    background: url("/src/img/Reviews/background1.png") center center/cover no-repeat;
     padding: 80px 60px 70px 60px;
     display: flex;
     justify-content: center;
@@ -754,6 +754,9 @@ hr{
     letter-spacing: 0.4px;
     color: #FFFFFF;
 }
+.our_experiency .line75{
+    width: 100%;
+}
 .areas_case {
     font-family: 'Outfit';
     font-style: normal;
@@ -781,4 +784,24 @@ hr{
     letter-spacing: 0.4px;
     color: #1F2732;
     cursor: pointer;
+}
+.reviews{
+    padding: 124px 0 139.7px 0;
+    background: #1F2732 center center/cover no-repeat;
+}
+
+.reviews .reviews_title {
+    color: #FFF;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px; 
+    letter-spacing: 0.4px
+}
+
+.reviews .main_block .logo {
+    display: block;
+    margin: 0 auto;
 }
